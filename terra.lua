@@ -1,3 +1,5 @@
+-- // this is open src no point in skidding
+
 local hotkey = "p" -- toggle key
 local mouse = game.Players.LocalPlayer:GetMouse()
 
@@ -57,6 +59,7 @@ end)
 setreadonly(mt, true)
 getgenv().ValiantAimHacks.FOV = 35
 
+-- // Notifications
 game.StarterGui:SetCore("SendNotification",  {
  Title = "terra.rip";
  Text = "Made By terra#0496";
